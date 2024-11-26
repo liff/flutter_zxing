@@ -65,6 +65,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.3.3"
+  camera_windows:
+    dependency: "direct main"
+    description:
+      path: "packages/camera/camera_windows"
+      ref: image-streaming-revert
+      resolved-ref: "6a3893784700118850d03fa77d13ae3353cb6f05"
+      url: "https://github.com/CodemateLtd/packages.git"
+    source: git
+    version: "0.2.6+1"
   characters:
     dependency: transitive
     description:

@@ -52,8 +52,7 @@ class _DemoPageState extends State<DemoPage> {
 
   @override
   Widget build(BuildContext context) {
-    final isCameraSupported = defaultTargetPlatform == TargetPlatform.iOS ||
-        defaultTargetPlatform == TargetPlatform.android;
+    final isCameraSupported = true;
     return DefaultTabController(
       length: 2,
       child: Scaffold(
